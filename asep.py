@@ -55,10 +55,10 @@ def back():
 # BANNER
 def banner():
 	clear()
-	wel = '# HELLO ANAK ANJING'
+	wel = '🇸 🇦 🇹  🇸 🇪 🇹 🇹  🇲 🇦 🇿 🇸 🇪 🇭 '
 	wel2 = mark(wel, style='cyan')
 	sol().print(wel2)
-	au=' ░▐█▀█▒▐█▀▀▄░░▄█▀▄─░▐█▀█▒▐█▒▐▀  AUTHOR : DANZZ X NANO \n ░▐█──▒▐█▒▐█░▐█▄▄▐█░▐█──▒▐██▌░  GITHUB: DANZZ-XD \n ░▐█▄█▒▐█▀▄▄░▐█─░▐█░▐█▄█▒▐█▒▐▄  FB: Danzz Gamteng'
+	au='🇸 🇦 🇹  🇸 🇪 🇹 🇹 \n 🇸 🇦 🇹  🇸 🇪 🇹 🇹  \n 🇸 🇦 🇹  '
 	pengembang1=nel(au,style="green")
 	cetak(nel(pengembang1, title='INFO SCRIPT'))
 
@@ -101,7 +101,7 @@ def login_lagi():
 		time.sleep(2.5)
 		menu()
 	except KeyError:
-		sue = '# Login Gagal, Sebab Lo Jomblo !!!'
+		sue = '# Login Gagal, Token modarrr  !!!'
 		suu = mark(sue, style='red')
 		sol().print(suu, style='cyan')
 		time.sleep(2.5)
@@ -416,7 +416,7 @@ def dump_massal():
 def setting():
 	wl = '# SETTING URUTAN ID'
 	sol().print(mark(wl, style='green'))
-	teks = '[01] Crack Dari Akun Tertua (Mantap)\n[02] Crack Dari Akun Termuda (Mantap Dikit)\n[03] Acak Urutan ID (Kayak Kontol)'
+	teks = '[01] Akun Tertua \n[02] Akun Termuda \n[03] Acak Urutan ID '
 	tak = nel(teks, style='cyan')
 	cetak(nel(tak, title='SETTING'))
 	hu = input(x+'['+p+'f'+x+'] Pilih : ')
@@ -462,7 +462,7 @@ def setting():
 
 # WORDLIST
 def passwrd():
-	ler = '# SEDANG MENGGESER BULAN, TEKAN CTRL+Z UNTUK BERHENTI'
+	ler = '# TEKAN CTRL+Z UNTUK BERHENTI'
 	sol().print(mark(ler, style='green'))
 	krek = 'Hasil Live  Disimpan Ke : OK/%s\nHasil Check Disimpan Ke : CP/%s\nHidupkan/Matikan Mode Pesawat Setiap 5 Menit'%(okc,cpc)
 	cetak(nel(krek, title='CRACK'))
